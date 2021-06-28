@@ -4,10 +4,11 @@ import time
 
 options = Options()
 options.add_argument('--disable-blink-features=AutomationControlled')
+
 class PagePuller:
     def __init__(self, url) -> None:
         self.url=url
-        self.driver = webdriver.Chrome("C:/Users/asadr/Documents/GitHub/GPUBot/chromedriver.exe",options=options)
+        self.driver = webdriver.Chrome("chromedriver.exe",options=options)
         self.driver.get(url)
     def checkAvailability(self):
         addToCart = self.driver.find_element_by_class_name("addToCartButton")
