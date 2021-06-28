@@ -1,19 +1,19 @@
 Introduction
-This bot will contiously check best buy products and will add them to your cart once they are available. 
+This bot will contiously monitor best buy products and will add them to your cart once they are available. 
 
-How it Works
+How It Works
 The program opens up a window for each product listed in Links.txt and will continously refresh the pages until it can be added to the cart. Once a product has been added
 to the cart, the window will stop refreshing and will wait for the user to contiue the checkout.
 
-How to Run the Program
+How To Run The Program
 1.Make sure you have python installed. We are currently working on implmenting a way for people to run the program without pyhton as well
 2.Add the urls of all the products you wish to monitor to Links.txt
 3.Run the Scalper.py file
-4.The windows should open and start refresh every 0.3 seconds
-5.Once you are done with the program, make sure to terminate it. Although making an maintaing the browsers is the most intensive part of the program, the program will 
-  be taking up a small portion of your computer's resuources if not terminated.
+4.The windows should open and start refreshing every 0.3 seconds
+5.Once you are done with the program, make sure to terminate it. Although making an maintaing the browsers is the most resource intensive part of the program, the program will 
+  still be taking up a small portion of your computer's resuources if not terminated.
 
-Whats to come
+Whats To Come
 We are planning to add the option to use other browsers instead of chrome. We also are trying to add capabilties for other websites. 
 
-Feel free to implment features that we can approve of and come up with ideas to make the Scalping bot better. Also feel free to report any bugs and complaints as well
+Feel free to implement features that we can approve of and come up with ideas to make the Scalping bot better. Also feel free to report any bugs and complaints as well.
